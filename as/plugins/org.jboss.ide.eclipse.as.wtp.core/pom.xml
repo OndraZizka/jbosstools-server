@@ -6,7 +6,13 @@
 		<artifactId>plugins</artifactId>
 		<version>2.5.0-SNAPSHOT</version>
 	</parent>
+    
 	<groupId>org.jboss.tools.as.plugins</groupId>
 	<artifactId>org.jboss.ide.eclipse.as.wtp.core</artifactId> 
 	<packaging>eclipse-plugin</packaging>
+    
+    <build>
+        <sourceDirectory>src</sourceDirectory>
+    </build>
+    
 </project>
